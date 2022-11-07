@@ -54,7 +54,7 @@ public WebElement getLoginSuccessfullyMsg()
 	return loginSuccessfullyMsg;
 }
 
-public void setLoginSuccessfullyMsg() 
+public void setLoginSuccessfully() 
 {
 	
 loginSuccessfullyMsg = driver.findElement(By.xpath("//h3[text()='Login Successfully']"));
